@@ -92,23 +92,19 @@ function Navigation({ history }) {
             <Navbar.Toggle />
             <Navbar.Collapse>
                 <Nav>
-                    <RouterNavLink to="/how-we-met" className="nav-link" role="button" onClick={toggleOffCanvas}
-                    >
+                    <RouterNavLink to="/how-we-met" className="nav-link" role="button" onClick={toggleOffCanvas} >
                         <HowWeMetNavText />
                     </RouterNavLink>
-                    <RouterNavLink to="/schedule" className="nav-link" role="button" onClick={toggleOffCanvas}
-                    >
+                    <RouterNavLink to="/schedule" className="nav-link" role="button" onClick={toggleOffCanvas} >
                         <ScheduleNavText />
                     </RouterNavLink>
-                    <RouterNavLink to="/travel" className="nav-link" role="button" onClick={toggleOffCanvas}
-                    >
+                    <RouterNavLink to="/travel" className="nav-link" role="button" onClick={toggleOffCanvas} >
                         <TravelNavText />
                     </RouterNavLink>
-                    <RouterNavLink to="/things-to-do" className="nav-link" role="button" onClick={toggleOffCanvas}
-                    >
+                    <RouterNavLink to="/things-to-do" className="nav-link" role="button" onClick={toggleOffCanvas} >
                         <ThingsToDoNavText />
                     </RouterNavLink>
-                    <RouterNavLink to="/faq" className="nav-link" role="button" onClick={toggleOffCanvas}>
+                    <RouterNavLink to="/faq" className="nav-link" role="button" onClick={toggleOffCanvas} >
                         <FAQNavText />
                     </RouterNavLink>
                 </Nav>
