@@ -74,7 +74,6 @@ function Navigation({ history }) {
     >
         <RSVPNavText />
     </RouterNavLink>*/
-    const colapse = true;
     return (
         <Navbar
             variant="dark"
