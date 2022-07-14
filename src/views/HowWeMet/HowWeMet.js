@@ -51,8 +51,8 @@ function getPhotos() {
         },
         {
             src: photoSpainOctopus,
-            width: 4,
-            height: 3,
+            width: 3,
+            height: 2,
         },
         {
             src: photo3,
@@ -117,6 +117,11 @@ function HowWeMet() {
 
     const [isOpen, setIsOpen] = useState(0);
     const [photoIndex, setPhotoIndex] = useState(0);
+
+    const handleClickIndex = (event, obj) => {
+        setIsOpen(true)
+        setPhotoIndex(obj.index)
+    }
     return (
         <section>
             <Header
@@ -137,7 +142,7 @@ function HowWeMet() {
                         </Col>
                     </Row>
                 ))}
-                <Gallery photos={photos} onClick={() => setIsOpen(1)} />
+                <Gallery photos={photos} onClick={handleClickIndex} />
                 {!!isOpen && (
                     <Lightbox
                         mainSrc={photos[photoIndex].src}
