@@ -13,13 +13,13 @@ export default {
             </span>
         ),
     },
-    [LANGUAGE.CAT]: {
-        Heading: () => <>Registre</>,
+    [LANGUAGE.ES]: {
+        Heading: () => <>Registro</>,
         SubHeading: () => (
             <span>
-                La vostra asistència és més que suficient i no esperem cap
-                regal. Però, si voleu contribuir a la nostra vida de casats
-                aviat penjarem la nostra llista de noces.
+                Tu presencia será más que suficiente, sin embargo, si deseas contribuir con nuestra
+                nueva vida en matrimonio, tendrémos cajas para aportes o regresa pronto a la página, que subiremos pronto nuestro registro
+                de regalos.
             </span>
         ),
     },

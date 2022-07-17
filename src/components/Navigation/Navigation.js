@@ -51,22 +51,16 @@ function Navigation({ history }) {
         thingsToDo: ThingsToDoNavText,
         faq: FAQNavText,
         howWeMet: HowWeMetNavText,
+        registry: RegistryNavText,
     } = navigation[selectLanguage(cookies)]
 
     /*
-    registry: RegistryNavText,
+    
         rsvp: RSVPNavText,
         signOut: SignOutText,
         signIn: SignInText,
         manageRsvp: ManageRSVPText,
         
-    <RouterNavLink
-        to="/registry"
-        className="nav-link"
-        role="button"
-    >
-        <RegistryNavText />
-    </RouterNavLink>
     <RouterNavLink
         to="/rsvp"
         className="nav-link"
@@ -106,6 +100,9 @@ function Navigation({ history }) {
                     </RouterNavLink>
                     <RouterNavLink to="/faq" className="nav-link" role="button" onClick={toggleOffCanvas} >
                         <FAQNavText />
+                    </RouterNavLink>
+                    <RouterNavLink to="/registry" className="nav-link" role="button" >
+                        <RegistryNavText />
                     </RouterNavLink>
                 </Nav>
                 <Nav className="ml-auto">
