@@ -18,7 +18,7 @@ export default {
         SubHeading: () => (
             <span>
                 Tu presencia será más que suficiente, sin embargo, si deseas contribuir con nuestra
-                nueva vida en matrimonio, tendrémos cajas para aportes o regresa pronto a la página, que subiremos pronto nuestro registro
+                nueva vida en matrimonio, tendrémos cajas para aportes o regresa pronto a la página, que subiremos nuestro registro
                 de regalos.
             </span>
         ),
