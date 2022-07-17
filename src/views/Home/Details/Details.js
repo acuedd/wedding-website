@@ -6,13 +6,32 @@ import Col from "react-bootstrap/Col"
 
 import { selectLanguage } from "utilities/cookies"
 import { details } from "content/Home"
+import CountdownTimer from './CountdownTimer';
 
 import styles from "./Details.module.scss"
+import "./CountDown.css"
 
-function Details() {
+const getDays = (date1, date2) => {
+    const Difference_In_Time = date2.getTime() - date1.getTime()
+    const Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24)
+    return Difference_In_Days
+
+}
+
+const Details = () => {
+    const DATE_EVENT = new Date("2022-09-10");
+    const Today = new Date();
+    const DaysToEvent = getDays(Today, DATE_EVENT)
+
+    const EVENT_DAYS_IN_MS = DaysToEvent * 24 * 60 * 60 * 1000
+
+    const NOW_IN_MS = new Date().getTime()
+
     const [cookies] = useCookies(["language"])
 
-    const { Title, Date, Location, hashtag, locationLink } = details[
+    const dateTimeAfterThreeDays = NOW_IN_MS + EVENT_DAYS_IN_MS;
+
+    const { Title, MyDate, Location, hashtag, locationLink } = details[
         selectLanguage(cookies)
     ]
     return (
@@ -23,8 +42,11 @@ function Details() {
                         <h1 className={styles.announcement}>
                             <Title />
                         </h1>
+                        <div>
+                            <CountdownTimer targetDate={dateTimeAfterThreeDays} />
+                        </div>
                         <h1 className={styles.date}>
-                            <Date />
+                            <MyDate />
                         </h1>
                         <h2 className={styles.location}>
                             <a

@@ -7,7 +7,7 @@ const hashtag = "AndreEdu"
 export default {
     [LANGUAGE.EN]: {
         Title: () => <span>Andrea and Edward are getting married!</span>,
-        Date: () => (
+        MyDate: () => (
             <div className="d-flex flex-column">
                 <div>
                     <span >
@@ -23,7 +23,7 @@ export default {
     },
     [LANGUAGE.ES]: {
         Title: () => <span>Andrea y Edward nos casamos!</span>,
-        Date: () => (
+        MyDate: () => (
             <div className="d-flex flex-column">
                 <div>
                     <span >
