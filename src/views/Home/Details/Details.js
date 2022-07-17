@@ -42,12 +42,12 @@ const Details = () => {
                         <h1 className={styles.announcement}>
                             <Title />
                         </h1>
-                        <div>
-                            <CountdownTimer targetDate={dateTimeAfterThreeDays} />
-                        </div>
                         <h1 className={styles.date}>
                             <MyDate />
                         </h1>
+                        <h2>
+                            <CountdownTimer targetDate={dateTimeAfterThreeDays} />
+                        </h2>
                         <h2 className={styles.location}>
                             <a
                                 href={locationLink}
