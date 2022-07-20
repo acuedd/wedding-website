@@ -19,6 +19,15 @@ export default {
             ),
         },
         {
+            Question: () => <>Can I take photos in the wedding?</>,
+            Answer: () => (
+                <>
+                    Totally yes, but during of ceremony DON'T USE YOUR PHONE, we hired photographers to this moment,
+                    please feel free to use your cellphone in the reception.
+                </>
+            ),
+        },
+        {
             Question: () => <>What languages do the guests speak?</>,
             Answer: () => (
                 <>
@@ -43,6 +52,7 @@ export default {
                 <>
                     The weather during this time of year is usually cloudy, fresh and probably could raining.
                     During the day could be 24 degrees centigrades and in the sunset could reach to 14 degrees centigrades.
+                    Remember bring your own umbrella, if it's raining or if is a sunny day.
                 </>
             ),
         },
@@ -62,6 +72,15 @@ export default {
             ),
         },
         {
+            Question: () => <>¿Puedo tomar fotografías durante la boda?</>,
+            Answer: () => (
+                <>
+                    Totalmente si, pero durante la ceremonia en el muelle, NO UTILICES TU CELULAR POR FAVOR, hemos
+                    contratado fotógrafos para este momento. Por favor, siéntete libre para usar tu celular en la recepción o antes de la ceremonia.
+                </>
+            ),
+        },
+        {
             Question: () => <>¿Qué idioma hablan los invitados?</>,
             Answer: () => (
                 <>
@@ -73,7 +92,7 @@ export default {
             Question: () => <>¿Cual es el código de vestimenta?</>,
             Answer: () => (
                 <>
-                    La boda será formal. Te recomendamos vestido largo o elegante de cocktail para las damas
+                    Te recomendamos vestido largo o elegante de cocktail para las damas
                     y traje para los caballeros.
                     El blanco es reservado para la novia.
                     Si prefieres también puedes usar los colores como el vino y dorado.
@@ -88,6 +107,7 @@ export default {
                     Para esta fecha el tiempo normalmente es nublado, fresco y pordría llover.
                     Durante el día puede alcanzar los 24 grados centígrados y por al atardecer puede
                     alcanzar los 14 grados centígrados.
+                    Recuerda llevar una sombrilla blanca o acorde al código de color por si llueve o hace mucho sol.
                 </>
             ),
         },

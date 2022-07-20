@@ -18,13 +18,12 @@ import styles from "./Navigation.module.scss"
 
 function Navigation({ history }) {
     const [cookies, setCookie] = useCookies(["language"])
-    const [show, setShow] = useState(false)
+    const [show, setShow] = useState(true)
 
     const offsetValue = -56;
 
     const toggleOffCanvas = () => {
         setShow((show) => !show)
-        console.log(show)
     }
     //const { state, dispatch } = useContext(Store)
 
@@ -80,6 +79,7 @@ function Navigation({ history }) {
             <RouterNavLink
                 to="/"
                 className={classNames("navbar-brand", styles.brand)}
+                onClick={toggleOffCanvas}
             >
                 A & E
             </RouterNavLink>
