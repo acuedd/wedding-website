@@ -107,7 +107,11 @@ export default {
                     Para esta fecha el tiempo normalmente es nublado, fresco y pordría llover.
                     Durante el día puede alcanzar los 24 grados centígrados y por al atardecer puede
                     alcanzar los 14 grados centígrados.
-                    Recuerda llevar una sombrilla blanca o acorde al código de color por si llueve o hace mucho sol.
+                    <br />
+                    <span>
+                        Recuerdo que el clima es incierto, por lo que puedes llevar protector solar en caso sea un día soleado y
+                        no olvides llevar una sombrilla blanca o acorde al código de color por si llueve o hace mucho sol.
+                    </span>
                 </>
             ),
         },

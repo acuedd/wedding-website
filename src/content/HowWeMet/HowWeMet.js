@@ -5,7 +5,7 @@ import { LANGUAGE } from "actions/constants"
 export default {
     [LANGUAGE.EN]: [
         {
-            Title: () => <>A love story</>,
+            Title: () => <><center>A love story</center></>,
             Details: () => (
                 <>
                     <span>
@@ -29,7 +29,7 @@ export default {
     ],
     [LANGUAGE.ES]: [
         {
-            Title: () => <>Una historia de amor</>,
+            Title: () => <><center>Una historia de amor</center></>,
             Details: () => (
                 <>
                     <span>
@@ -46,6 +46,19 @@ export default {
                         mucho aprendizaje pero que hoy esta forjada de Amor viendo las promesas de Dios cumplidas
                         en la vida de cada uno, reconociendo que no son la pareja perfecta, pero que lucharan juntos
                         para perfeccionarse en Cristo, pues hasta aquí sólo su Gracia los ha sostenido y los mantiene.
+                    </span><br /><br />
+                    <span>
+                        No de una pareja perfecta, no de individuos perfectos, pero sí de amor real y
+                        verdadero que ha perdurado con el tiempo a pesar de los pesares y que gracias al
+                        amor de Dios podemos decir que las muchas aguas no podrán apagar el amor, ni lo ahogarán los ríos.
+                    </span><br /><br />
+                    <span>
+                        En Cristo obtenemos la victoria y fuera de él nos perdemos, imperfectos pero
+                        perdonados, su gracia es suficiente y es todo lo que necesitamos. Con la bendición de
+                        Dios, familia y amigos, uniremos nuestras vidas en matrimonio, gracias por ser parte de nuestra historia, también les amamos.
+                    </span><br /><br />
+                    <span>
+                        Nosotros amamos porque él nos amó primero 1 Juan 4:19-21
                     </span>
                 </>
             )

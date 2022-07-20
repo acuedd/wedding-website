@@ -18,7 +18,7 @@ import styles from "./Navigation.module.scss"
 
 function Navigation({ history }) {
     const [cookies, setCookie] = useCookies(["language"])
-    const [show, setShow] = useState(true)
+    const [show, setShow] = useState(false)
 
     const offsetValue = -56;
 
@@ -79,7 +79,6 @@ function Navigation({ history }) {
             <RouterNavLink
                 to="/"
                 className={classNames("navbar-brand", styles.brand)}
-                onClick={toggleOffCanvas}
             >
                 A & E
             </RouterNavLink>
@@ -101,7 +100,7 @@ function Navigation({ history }) {
                     <RouterNavLink to="/faq" className="nav-link" role="button" onClick={toggleOffCanvas} >
                         <FAQNavText />
                     </RouterNavLink>
-                    <RouterNavLink to="/registry" className="nav-link" role="button" >
+                    <RouterNavLink to="/registry" className="nav-link" role="button" onClick={toggleOffCanvas} >
                         <RegistryNavText />
                     </RouterNavLink>
                 </Nav>

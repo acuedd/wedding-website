@@ -11,7 +11,7 @@ export default {
             Title: () => <>Reg 2</>,
         },
     ],
-    [LANGUAGE.CAT]: [
+    [LANGUAGE.ES]: [
         {
             Title: () => <>Rega 1</>,
         },
