@@ -24,8 +24,7 @@ export default {
 
                 <p><b>El regalo es opcional la asistencia obligatoria. </b></p>
                 <p><b>LA ASISTENCIA OBLIGATORIA. </b></p>
-                <p>Pero si deseas tener un detalle con nosotros, puedes hacerlo en efectivo depositandolo en el buzón el día de la boda o
-                    también puedes entrar al siguiente link para adquirir algo de nuestra lista de deseos:
+                <p>Pero si deseas tener un detalle con nosotros, puedes entrar al siguiente link para adquirir algo de nuestra lista de deseos:
                 </p><br />
                 <a target="_blank" href="https://www.cemaco.com/list/aculopezluxchajon">https://www.cemaco.com/list/aculopezluxchajon</a>
             </>
