@@ -6,7 +6,7 @@ export default {
     [LANGUAGE.EN]: [
         {
             Title: () => <>Welcome &ldquo;Panajachel&ldquo;</>,
-            Date: () => <>10/09/2022</>,
+            Date: () => <>Saturday, Sept 10th, 2022 </>,
             Time: () => "10 a.m.",
             Location: () => <>Panajachel</>,
             locationLink:
@@ -29,7 +29,7 @@ export default {
         },
         {
             Title: () => <>Wedding</>,
-            Date: () => <>10/09/2022</>,
+            Date: () => <>Saturday, Sept 10th, 2022 </>,
             Time: () => "11 a.m.",
             Location: () => <>Jardínes del lago</>,
             locationLink: "https://www.tripadvisor.com/Hotel_Review-g292008-d1959008-Reviews-Jardines_del_Lago-Panajachel_Lake_Atitlan_Solola_Department_Western_Highlands.html",
@@ -52,7 +52,7 @@ export default {
         },
         {
             Title: () => <>Reception & Lunch</>,
-            Date: () => <>10/09/2022</>,
+            Date: () => <>Saturday, Sept 10th, 2022 </>,
             Time: () => "1:30 p.m.",
             Location: () => <>Jardínes del lago</>,
             locationLink: "https://www.tripadvisor.com/Hotel_Review-g292008-d1959008-Reviews-Jardines_del_Lago-Panajachel_Lake_Atitlan_Solola_Department_Western_Highlands.html",
@@ -77,7 +77,7 @@ export default {
     [LANGUAGE.ES]: [
         {
             Title: () => <>Bienvenidos a &ldquo;Panajachel&ldquo;</>,
-            Date: () => <>10/09/2022</>,
+            Date: () => <>Sábado, 10 de septiembre 2022</>,
             Time: () => "10 a.m.",
             Location: () => <>Panajachel</>,
             locationLink:
@@ -100,7 +100,7 @@ export default {
         },
         {
             Title: () => <>La boda</>,
-            Date: () => <>10/09/2022</>,
+            Date: () => <>Sábado, 10 de septiembre 2022</>,
             Time: () => "11 a.m.",
             Location: () => <>Jardínes del lago</>,
             locationLink: "https://www.tripadvisor.com/Hotel_Review-g292008-d1959008-Reviews-Jardines_del_Lago-Panajachel_Lake_Atitlan_Solola_Department_Western_Highlands.html",
@@ -123,7 +123,7 @@ export default {
         },
         {
             Title: () => <>Recepción</>,
-            Date: () => <>10/09/2022</>,
+            Date: () => <>Sábado, 10 de septiembre 2022</>,
             Time: () => "1:30 p.m.",
             Location: () => <>Jardínes del lago</>,
             locationLink: "https://www.tripadvisor.com/Hotel_Review-g292008-d1959008-Reviews-Jardines_del_Lago-Panajachel_Lake_Atitlan_Solola_Department_Western_Highlands.html",

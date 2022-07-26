@@ -11,7 +11,7 @@ export default {
             <div className="d-flex flex-column">
                 <div>
                     <span >
-                        10/09/2022
+                        Saturday, Sept 10th, 2022
                     </span>
                 </div>
                 <div>Love is patient...</div>
@@ -27,7 +27,7 @@ export default {
             <div className="d-flex flex-column">
                 <div>
                     <span >
-                        10/09/2022
+                        Sábado, 10 de septiembre 2022
                     </span>
                 </div>
                 <div>El amor es paciente...</div>
