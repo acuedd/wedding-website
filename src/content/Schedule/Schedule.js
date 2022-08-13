@@ -7,7 +7,7 @@ export default {
         {
             Title: () => <>Welcome &ldquo;Panajachel&ldquo;</>,
             Date: () => <>Saturday, Sept 10th, 2022 </>,
-            Time: () => "10 a.m.",
+            Time: () => "09 a.m.",
             Location: () => <>Panajachel</>,
             locationLink:
                 "https://www.tripadvisor.com/Tourism-g292008-Panajachel_Lake_Atitlan_Solola_Department_Western_Highlands-Vacations.html",
@@ -30,7 +30,7 @@ export default {
         {
             Title: () => <>Wedding</>,
             Date: () => <>Saturday, Sept 10th, 2022 </>,
-            Time: () => "11 a.m.",
+            Time: () => "10 a.m.",
             Location: () => <>Jardínes del lago</>,
             locationLink: "https://www.tripadvisor.com/Hotel_Review-g292008-d1959008-Reviews-Jardines_del_Lago-Panajachel_Lake_Atitlan_Solola_Department_Western_Highlands.html",
             Address: () => (
@@ -73,12 +73,35 @@ export default {
                 </>
             ),
         },
+        {
+            Title: () => <>Reception & Lunch</>,
+            Date: () => <>Saturday, Sept 10th, 2022 </>,
+            Time: () => "1:30 p.m.",
+            Location: () => <>Jardínes del lago</>,
+            locationLink: "https://www.tripadvisor.com/Hotel_Review-g292008-d1959008-Reviews-Jardines_del_Lago-Panajachel_Lake_Atitlan_Solola_Department_Western_Highlands.html",
+            Address: () => (
+                <>
+                    <p>Calle Monterrey, </p>
+                    <p>Panajachel 07010, Sololá, Guatemala</p>
+                </>
+            ),
+            mapLink:
+                "https://g.page/jardinesdellago?share",
+            Details: () => (
+                <>
+                    <p>
+                        The reception and lunch will take place at Jardínes del lago,
+                        after a photo session so please be patient until we finish to fill our instagram lol.
+                    </p>
+                </>
+            ),
+        },
     ],
     [LANGUAGE.ES]: [
         {
             Title: () => <>Bienvenidos a &ldquo;Panajachel&ldquo;</>,
             Date: () => <>Sábado, 10 de septiembre 2022</>,
-            Time: () => "10 a.m.",
+            Time: () => "9 a.m.",
             Location: () => <>Panajachel</>,
             locationLink:
                 "https://www.tripadvisor.com/Tourism-g292008-Panajachel_Lake_Atitlan_Solola_Department_Western_Highlands-Vacations.html",
@@ -101,7 +124,7 @@ export default {
         {
             Title: () => <>La boda</>,
             Date: () => <>Sábado, 10 de septiembre 2022</>,
-            Time: () => "11 a.m.",
+            Time: () => "10 a.m.",
             Location: () => <>Jardínes del lago</>,
             locationLink: "https://www.tripadvisor.com/Hotel_Review-g292008-d1959008-Reviews-Jardines_del_Lago-Panajachel_Lake_Atitlan_Solola_Department_Western_Highlands.html",
             Address: () => (

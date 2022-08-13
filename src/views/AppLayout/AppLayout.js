@@ -11,6 +11,7 @@ import { Travel } from "views/Travel"
 import { ThingsToDo } from "views/ThingsToDo"
 import { FAQ } from "views/FAQ"
 import { Registry } from "views/Registry"
+import { MyDocument } from "views/Invitation"
 // import { RSVP } from "views/RSVP"
 
 
@@ -28,6 +29,7 @@ const AppLayout = () => (
                 <Route exact path={"/things-to-do"} component={ThingsToDo} />
                 <Route exact path={"/faq"} component={FAQ} />
                 <Route exact path={"/registry"} component={Registry} />
+                <Route exact path={"/invitation"} component={MyDocument} />
             </Switch>
         </main>
         <Footer />
