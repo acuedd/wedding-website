@@ -1,5 +1,4 @@
 import React from 'react'
-import { Page, Text, View, Document, StyleSheet, PDFViewer, Image } from '@react-pdf/renderer'
 import { useLocation } from "react-router-dom"
 
 // Create styles
