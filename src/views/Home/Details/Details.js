@@ -19,7 +19,7 @@ const getDays = (date1, date2) => {
 }
 
 const Details = () => {
-    const DATE_EVENT = new Date("2022-09-10");
+    const DATE_EVENT = new Date("2022-09-10 10:00");
     const Today = new Date();
     const DaysToEvent = getDays(Today, DATE_EVENT)
 
